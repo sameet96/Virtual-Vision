@@ -51,6 +51,7 @@ def main():
                             os.path.expanduser('/home/pi/.config'),
                             'google-oauthlib-tool',
                             'credentials.json'
+                            
                         ),
                         help='Path to store and read OAuth2 credentials')
     args = parser.parse_args()
