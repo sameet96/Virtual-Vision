@@ -22,9 +22,7 @@ def process_event(event):
     Args:
         event(event.Event): The current event to process.
     """
-    #if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-	#	subprocess.call('aplay /home/pi/Fb.wav',shell=True)
-     #   print()
+   
         
     if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
         subprocess.call('aplay /home/pi/project/vision/google_tones/tone_start.wav',shell=True)
